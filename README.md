@@ -25,3 +25,6 @@ algorithm.setMap(R"(
 algorithm.process();
 std::vector<std::pair<int, int>> finalPath = algorithm.getFinalPath();
 ```
+
+## Examples:
+`main.cpp` and `main_no_PathFinder_class.cpp` contain visual examples in SFML. The first file uses the PathFinder class, the second does not (isolated algorithm).

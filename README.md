@@ -2,7 +2,8 @@
 Simple Path finding class 
 
 ## Usage:
-`PathFinder algorithm;
+```
+PathFinder algorithm;
 
 /*
 You can pass the map as a string, or a two-dimensional array std::vector<std::vector<PathFinder::MapCell>>:
@@ -22,4 +23,5 @@ algorithm.setMap(R"(
 1,1,1,1,1,1,1,1,1,1,1,1,1,1
 )");
 algorithm.process();
-std::vector<std::pair<int, int>> finalPath = algorithm.getFinalPath();`
+std::vector<std::pair<int, int>> finalPath = algorithm.getFinalPath();
+```
